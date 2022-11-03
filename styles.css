@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+    font-size:2em;
+}
+
+.section .sign-up {
+    font-size:2.5em;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+body {
+  background-color: #A9A9A9;
+}
+
+img {
+  width: 100%;
+}
+
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 10px;
+}
+
+.top-right {
+  position: absolute;
+  top: 20%;
+  right: 6%;
+  color: #fff;
+  font-size: 2em;
+}
+
+.section .sign-up {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.masonry {
+  margin: 1.5em auto;
+/*max-width: 768px;*/
+  column-gap: 1.5em;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-basis: 100%;
+}
+
+.item {
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+  font-size: 24px;
+  text-align: center;
+}
+
+.whoops {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 4em;
+}
+
+.addbutton {
+  font-size: 3em;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.content {
+  margin: 15px;
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.pic1 .text1 {
+  height: 100px;
+}
+
+img {
+  object-fit: contain;
+}
+
+a:link {
+  color: white;
+}
+
+.home {
+  background-color: #000000;
+  color: #F8F8FF;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.blogend {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 100%;
+  font-size: 20px;
+}
+
+.bio-title {
+  font-size: 36px;
+}
+
+.bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+  .top-right {
+    font-size: 1em;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 2;
+  }
+  .top-right {
+    font-size: 1em;
+  }
+}
+
